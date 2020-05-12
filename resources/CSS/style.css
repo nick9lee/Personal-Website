@@ -200,8 +200,11 @@ header{
 /*----------------------------------------------------------*/
 
 /*----------tik-tac-toe-----------*/
-.app-screen{
-    width: 80%;
+.app-screen{ /*image is centered*/
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tictactoe-des-box{
@@ -279,4 +282,16 @@ header{
 .resume a:hover,
 .resume a:active{
     color: #fdcb6e;
+}
+
+/*----------------------------------------------------------*/
+/* footer*/
+/*----------------------------------------------------------*/
+footer{
+    background-color: #3e3e3e;
+}
+
+footer p{
+    font-size: 90%;
+    color: #b1b1b1;
 }
