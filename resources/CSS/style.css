@@ -240,6 +240,7 @@ header{
 .linkedin a:link,
 .linkedin a:visited{ 
     color: #007bb5;
+    transition: color 0.2s;
 }
 
 .linkedin a:hover,
@@ -250,6 +251,7 @@ header{
 .email a:link,
 .email a:visited{ 
     color: white;
+    transition: color 0.2s;
 }
 
 .email a:hover,
@@ -260,6 +262,7 @@ header{
 .github a:link,
 .github a:visited{ 
     color: #000;
+    transition: color 0.2s;
 }
 
 .github a:hover,
@@ -270,6 +273,7 @@ header{
 .resume a:link,
 .resume a:visited{ 
     color: #007ee5;
+    transition: color 0.2s;
 }
 
 .resume a:hover,
