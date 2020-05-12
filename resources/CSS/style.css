@@ -212,3 +212,67 @@ header{
     word-spacing: 2px;
     margin-bottom: 3%;
 }
+
+/*----------------------------------------------------------*/
+/*Contacts and links*/
+/*----------------------------------------------------------*/
+
+.contacts-and-links h2{
+    color: white;
+}
+
+.contacts-and-links{
+    background-color: #3e3e3e;
+}
+
+.contacts-and-links ul{
+    list-style: none;
+    text-align: center;
+    font-size: 300%;
+}
+
+.contacts-and-links li{
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.linkedin a:link,
+.linkedin a:visited{ 
+    color: #007bb5;
+}
+
+.linkedin a:hover,
+.linkedin a:active{
+    color: #fdcb6e;
+}
+
+.email a:link,
+.email a:visited{ 
+    color: white;
+}
+
+.email a:hover,
+.email a:active{
+    color: #fdcb6e;
+}
+
+.github a:link,
+.github a:visited{ 
+    color: #000;
+}
+
+.github a:hover,
+.github a:active{
+    color: #fdcb6e;
+}
+
+.resume a:link,
+.resume a:visited{ 
+    color: #007ee5;
+}
+
+.resume a:hover,
+.resume a:active{
+    color: #fdcb6e;
+}
