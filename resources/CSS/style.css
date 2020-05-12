@@ -7,16 +7,19 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-html{
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix{zoom:1}
@@ -100,6 +103,7 @@ h2:after{
     text-decoration: none;
     border-radius: 200px;
     color: #fff;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -133,6 +137,7 @@ h2:after{
 /*----------------------------------------------------------*/
 
 header{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(images/forest.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(images/forest.jpg);
     background-size: cover;
     background-position: center;
@@ -145,6 +150,7 @@ header{
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);  
 }
 
@@ -174,6 +180,7 @@ header{
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 
@@ -203,8 +210,8 @@ header{
 .app-screen{ /*image is centered*/
     width: 50%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tictactoe-des-box{
@@ -243,6 +250,7 @@ header{
 .linkedin a:link,
 .linkedin a:visited{ 
     color: #007bb5;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -254,6 +262,7 @@ header{
 .email a:link,
 .email a:visited{ 
     color: white;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -265,6 +274,7 @@ header{
 .github a:link,
 .github a:visited{ 
     color: #000;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -276,6 +286,7 @@ header{
 .resume a:link,
 .resume a:visited{ 
     color: #007ee5;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
