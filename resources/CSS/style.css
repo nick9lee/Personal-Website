@@ -211,6 +211,19 @@ header{
     color: #555;
 }
 
+/*-------mobile nav--------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: white;
+}
+
 /*----------------------------------------------------------*/
 /* about me*/
 /*----------------------------------------------------------*/
@@ -326,6 +339,6 @@ footer{
 }
 
 footer p{
-    font-size: 90%;
+    font-size: 70%;
     color: #b1b1b1;
 }
