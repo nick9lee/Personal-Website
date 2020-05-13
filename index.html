@@ -19,9 +19,12 @@
                 <div class="row">
                     <img src="resources/images/modernlogo.PNG" alt="personallogo" class="logo">
                     <ul class="main-nav">
-                        <li><a href="#about">About me</a></li>
+                        <li><a class="js--scroll-to-about-me" href="#">About me</a></li>
+                        <li><a class="js--scroll-to-projects" href="#">Projects</a></li>
+                        <li><a class="js--scroll-to-contacts" href="#">Contacts and links</a></li>
+                       <!-- <li><a href="#about">About me</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contacts">Contacts and links</a></li>
+                        <li><a href="#contacts">Contacts and links</a></li> -->
                     </ul>
                 </div>
             </nav>
@@ -34,7 +37,7 @@
         
         
         <a id="about"></a>
-        <section class="about-me">
+        <section class="about-me js--section-features js--about-me">
             <div class="row">
                 <h2>About me</h2>
             </div>
@@ -45,14 +48,11 @@
         
         
         <a id="projects"></a>
-        <section class="projects">
+        <section class="projects js--projects">
             <div class="row">
                 <h2>Personal Projects</h2>
             </div>
             <div class="row">
-                <div class="col span-1-of-2 tictactoe-image">
-                    <img src="resources/images/smaller-tictactoe.PNG" alt="pic of tictactoe in console" class="app-screen">
-                </div>
                 <div class="col span-1-of-2 tictactoe-des-box">
                     <div class="tic-tac-toe-description">
                         <h3>Tic Tac Toe</h3>
@@ -62,12 +62,15 @@
                     <a class="btn btn-ghost" href="https://github.com/nick9lee/TicTacToe">view code</a>
         
                 </div>
+                <div class="col span-1-of-2 tictactoe-image">
+                    <img src="resources/images/smaller-tictactoe.PNG" alt="pic of tictactoe in console" class="app-screen">
+                </div>
             </div>
         </section>
         
         
         <a id="contacts"></a>
-        <section class="contacts-and-links">
+        <section class="contacts-and-links js--contacts">
             <div class="row">
                 <h2>Contacts and Links</h2>
             </div>
@@ -103,14 +106,17 @@
                     <p>Nick Lee&copy;</p>
                 </div>
                 <div class="col span-1-of-2">
-                    <p class="right-message">Responsive website coded in HTML and CSS fit for all devices</p>
+                    <p class="right-message">Responsive website coded in HTML,CSS and javascript|fit for all devices</p>
                 </div>
             </div>
         </footer>
         
+        
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
     </body>
-    
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 </html>
