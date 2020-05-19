@@ -1,2 +1,3 @@
 # Personal-Website
-personal website 
+personal website to showcase my portfolio
+
