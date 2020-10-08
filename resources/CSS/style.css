@@ -243,20 +243,60 @@ header{
 /*----------------------------------------------------------*/
 
 /*----------tik-tac-toe-----------*/
-.app-screen{ /*image is centered*/
-    width: 50%;
+.tictactoe-screen{ /*image is centered*/
+    width:40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.tictactoe-des-box{
     margin-top: 10%;
 }
 
-.tic-tac-toe-description{
+/*--------------project description boxes--------------*/
+.project-des-box{
+    margin-top: 10%;
+}
+
+.project-description{
     word-spacing: 2px;
     margin-bottom: 3%;
+}
+
+/*----------CurrencyConverter-----------*/
+
+.currencyConverter-screen{
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/*----------StudentRegistration-----------*/
+.studentRegistration-screen{
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/*----------Programmer Eyes-----------*/
+.programmerEyes-screen{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+/*----------app icons-----------*/
+
+.app-icons{
+    width:10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*----------------------------------------------------------*/
