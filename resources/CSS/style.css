@@ -160,7 +160,6 @@ header{
     float: left;
     margin-top: 10px;
     margin-bottom: 8px;
-    border-radius: 10px;
 }
 
 .main-nav{
@@ -214,7 +213,7 @@ header{
 /*-------mobile nav--------*/
 .mobile-nav-icon{
     float: right;
-    margin-top: 30px;
+    margin-top: 8px;
     cursor: pointer;
     display: none;
 }
