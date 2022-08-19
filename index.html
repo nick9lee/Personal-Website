@@ -32,6 +32,7 @@
                 <div class="row">
                     <ul class="main-nav js--main-nav">
                         <li><a class="js--scroll-to-about-me" href="#">About me</a></li>
+                        <li><a class="js--scroll-to-experience" href="#">Experience</a></li>
                         <li><a class="js--scroll-to-projects" href="#">Projects</a></li>
                         <li><a class="js--scroll-to-contacts" href="#">Contacts and links</a></li>
                        <!-- <li><a href="#about">About me</a></li>
@@ -43,7 +44,7 @@
             </nav>
             <div class="hero-text-box">
                 <h1>Nicholas Lee</h1>
-                <a class="btn btn-full" href="https://nick9lee.github.io/resources/NicholasLee_Resume_August2021.pdf" target="_blank" >
+                <a class="btn btn-full" href="https://nick9lee.github.io/resources/Resume_NicholasLee_Aug-18-2022.pdf" target="_blank" >
                     Resume
                 </a>
                 
@@ -62,6 +63,16 @@
             </div>
         </section>
         
+        <a id="experience"></a>
+        <section class="experience js--experience">
+            <div class="row">
+                <h2>About me</h2>
+            </div>
+            <div class="row about-me-description">
+                <p>This is about my experience <br> Currently I am working on a year long internship at Arcurve as a software developer where I am contributing to a full stack application using Angular and C#. I decided to go into Engineering because I was fascinated by how things are made. Now as a software engineering major, I like to make things myself.</p>
+            </div>
+        </section>
+        
         <a id="projects"></a>
         <section class="projects js--projects">
             <div class="row">
@@ -72,9 +83,26 @@
             <div class="row">
                 <div class="col span-1-of-2 project-des-box">
                     <div class="project-description">
+                        <img src="resources/images/plus15logo.png" alt="pic of plus 15 icon" class="app-icons">
+                        <h3>Plus 15</h3>
+                        <p>IOS application built in Swift to help Calgarians navigate 16km of indoor hallways covering downtown Calgary. This app utilizes API's from Calgary Open Data to help users get around downtown while staying out of the cold, and find their next lunch spot.</p>
+                    </div>
+                    
+                    <a class="btn btn-ghost" href="https://github.com/nick9lee/Plus15Placeholder">view code</a> 
+                </div>
+                
+                <div class="col span-1-of-2">
+                    <video controls autoplay class="plus15-demo-vid" width="200" height="400" src="resources/images/Plus15DemoVid.MP4"></video>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
                         <img src="resources/images/iconSearchAlgoVisualizer.png" alt="pic of currencyconverter icon" class="app-icons">
                         <h3>Search Algorithm Visualizer</h3>
-                        <p>IOS application built in Swift to demonstrate how Breadth First Search, Depth First Search and A Star search/pathfinding algorithms work. The way this application was built, pressing one of the cells will modify an adjacency matrix. Once run is pressed, the chosen algorithm will be performed on the adjacency matrix filling out an array of where it has been as it runs. Then once the algorithm has ran its course, the cells that have been visited will be colored. This application is not on the app store as I want to build one more app before I purchase a Apple developer account. But feel free to clone the repo and check it out!</p>
+                        <p>IOS application built in Swift to demonstrate how Breadth First Search, Depth First Search and A Star search/pathfinding algorithms work. The way this application was built, pressing one of the cells will modify an adjacency matrix. Once run is pressed, the chosen algorithm will be performed on the adjacency matrix filling out an array of where it has been as it runs. Then once the algorithm has ran its course, the cells that have been visited will be colored. Feel free to clone the repo and check it out!</p>
                     </div>
                     
                     <a class="btn btn-ghost" href="https://github.com/nick9lee/SearchAlgoVisualizerV2">view code</a> 
@@ -116,22 +144,6 @@
                 
                 <div class="col span-1-of-2">
                     <img src="resources/images/ProgrammerEyesV2.png" alt="pic of programmer eyes in watch" class="programmerEyes-screen">
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col span-1-of-2 project-des-box">
-                    <div class="project-description">
-                        <img src="resources/images/iconCurrencyConverter.png" alt="pic of currencyconverter icon" class="app-icons">
-                        <h3>Currency Converter</h3>
-                        <p>A currency converter written in swift for ios devices which allows you to pick from 11 different currencies and convert them between each other. Utilizes a JSON api from fixer.io to get the most current information.</p>
-                    </div>
-                    
-                    <a class="btn btn-ghost" href="https://github.com/nick9lee/currency-converter">view code</a>
-        
-                </div>
-                <div class="col span-1-of-2">
-                    <img src="resources/images/currencyConverter.png" alt="pic of currency converter on iphone" class="currencyConverter-screen">
                 </div>
             </div>
             
@@ -191,7 +203,7 @@
                     </li>
                     <li>
                         <div class="resume">
-                            <a href="https://nick9lee.github.io/resources/NicholasLee_Resume_August2021.pdf" target="_blank"><i class="ion-document-text"></i></a>
+                            <a href="https://nick9lee.github.io/resources/Resume_NicholasLee_Aug-18-2022.pdf" target="_blank"><i class="ion-document-text"></i></a>
                         </div>
                     </li>
                 </ul>
