@@ -240,15 +240,49 @@ header{
 }
 
 .about-me{
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 /*----------------------------------------------------------*/
 /* work experience*/
 /*----------------------------------------------------------*/
 
-.work-experience{
+.experience{
     background-color: #f4f4f4;
+}
+
+.amazon-logo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37%;
+    margin-bottom: auto;
+}
+
+.amazon-intern-des{
+    font-size: 15px;
+}
+
+.pip-the-orange{
+    width: 13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+.arcurve-logo{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    margin-bottom: auto;
+}
+
+.arcurve-intern-des{
+    font-size: 15px;
 }
 
 /*----------------------------------------------------------*/
@@ -274,16 +308,6 @@ header{
     margin-bottom: 3%;
 }
 
-/*----------CurrencyConverter-----------*/
-
-.currencyConverter-screen{
-    width:40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
 /*----------StudentRegistration-----------*/
 .studentRegistration-screen{
     width:70%;
@@ -303,7 +327,7 @@ header{
 }
 
 
-/*----------Neuro Nexus video----------*/
+/*----------video----------*/
 .neuro-nexus-demo-vid{
     display: block;
     margin-left: auto;
@@ -318,6 +342,12 @@ header{
     margin-top: 15%;
 }
 
+.plus15-demo-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
 /*----------app icons-----------*/
 
 .app-icons{

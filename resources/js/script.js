@@ -16,6 +16,10 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: $('.js--about-me').offset().top}, 1000);
     });
     
+    $('.js--scroll-to-experience').click(function () {
+        $('html, body').animate({scrollTop: $('.js--experience').offset().top}, 1000);
+    });
+    
     $('.js--scroll-to-projects').click(function () {
         $('html, body').animate({scrollTop: $('.js--projects').offset().top}, 1000);
     });
