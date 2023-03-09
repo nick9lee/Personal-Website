@@ -1,0 +1,442 @@
+/* main color #fdcb6e          */
+/* darker color #f19e03       */
+
+/*----------------------------------------------------------*/
+/*basic set up*/
+/*----------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix{zoom:1}
+
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*----------------------------------------------------------*/
+/*reusable code*/
+/*----------------------------------------------------------*/
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto; /* top right bottom left*/
+}
+
+section{
+    padding: 80px 0px;
+}
+
+/*--------headings-----------*/
+h1, h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 400%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 150%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3:after{
+    display: block;
+    height: 2px;
+    background-color: #fdcb6e;
+    content: " "; /*need this*/
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #fdcb6e;
+    content: " "; /*need this*/
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*----------buttons-----------*/
+.btn:link,.btn:visited {
+    display: inline-block;
+    padding: 10px 30px; /*top-bottom, left-right*/
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #fdcb6e;
+    border: 1px solid #fdcb6e;
+    color: #000;
+    margin-right: 15px;
+}
+
+.btn-ghost:link, .btn-ghost:visited{
+    border: 1px solid #fdcb6e;
+    color: #fdcb6e;
+}
+
+.btn:hover, .btn:active{
+    background-color: #f19e03;
+}
+
+.btn-full:hover, .btn-full:active {
+    border: 1px solid #fdcb6e;
+}
+
+.btn-ghost:hover, .btn-ghost:active{
+    border: 1px solid #f19e03;
+    color: #fff;
+}
+
+/*----------------------------------------------------------*/
+/* header*/
+/*----------------------------------------------------------*/
+
+header{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(images/forest.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(images/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);  
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/*----------main nav--------------*/
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, .main-nav li a:visited{
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 2px solid #fdcb6e;
+}
+
+/*----------sticky nav--------------*/
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 2px 2px #ebebeb;
+    z-index: 9999;
+}
+
+.sticky .main-nav{
+    margin-top: 18px;
+}
+
+.sticky .main-nav li a:link, .sticky .main-nav li a:visited{
+    padding: 8px 0px;
+    color: #555;
+}
+
+/*-------mobile nav--------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: white;
+}
+
+/*----------------------------------------------------------*/
+/* about me*/
+/*----------------------------------------------------------*/
+
+.about-me-description{
+    word-spacing: 2px;
+    width: 70%;
+    line-height: 200%;
+}
+
+.about-me{
+    background-color: #fff;
+}
+
+/*----------------------------------------------------------*/
+/* work experience*/
+/*----------------------------------------------------------*/
+
+.experience{
+    background-color: #f4f4f4;
+}
+
+.amazon-logo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37%;
+    margin-bottom: auto;
+}
+
+.amazon-intern-des{
+    font-size: 15px;
+}
+
+.pip-the-orange{
+    width: 13%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+.arcurve-logo{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    margin-bottom: auto;
+}
+
+.arcurve-intern-des{
+    font-size: 15px;
+}
+
+/*----------------------------------------------------------*/
+/* Projects*/
+/*----------------------------------------------------------*/
+
+/*----------tik-tac-toe-----------*/
+.tictactoe-screen{ /*image is centered*/
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/*--------------project description boxes--------------*/
+.project-des-box{
+    margin-top: 10%;
+}
+
+.project-description{
+    word-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+/*----------StudentRegistration-----------*/
+.studentRegistration-screen{
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/*----------Programmer Eyes-----------*/
+.programmerEyes-screen{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+
+/*----------video----------*/
+.neuro-nexus-demo-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.search-algo-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.plus15-demo-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+/*----------app icons-----------*/
+
+.app-icons{
+    width:10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------------------------------------------------*/
+/*Contacts and links*/
+/*----------------------------------------------------------*/
+
+.contacts-and-links h2{
+    color: white;
+}
+
+.contacts-and-links{
+    background-color: #3e3e3e;
+}
+
+.contacts-and-links ul{
+    list-style: none;
+    text-align: center;
+    font-size: 300%;
+}
+
+.contacts-and-links li{
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.linkedin a:link,
+.linkedin a:visited{ 
+    color: #007bb5;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.linkedin a:hover,
+.linkedin a:active{
+    color: #fdcb6e;
+}
+
+.email a:link,
+.email a:visited{ 
+    color: white;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.email a:hover,
+.email a:active{
+    color: #fdcb6e;
+}
+
+.github a:link,
+.github a:visited{ 
+    color: #000;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.github a:hover,
+.github a:active{
+    color: #fdcb6e;
+}
+
+.resume a:link,
+.resume a:visited{ 
+    color: #007ee5;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.resume a:hover,
+.resume a:active{
+    color: #fdcb6e;
+}
+
+/*----------------------------------------------------------*/
+/* footer*/
+/*----------------------------------------------------------*/
+footer{
+    background-color: #3e3e3e;
+}
+
+footer p{
+    font-size: 70%;
+    color: #b1b1b1;
+}
