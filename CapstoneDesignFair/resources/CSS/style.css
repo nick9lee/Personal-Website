@@ -1,4 +1,4 @@
-/* main color #fdcb6e          */
+/* main color #f28231        */
 /* darker color #f19e03       */
 
 /*----------------------------------------------------------*/
@@ -78,7 +78,7 @@ h3{
 h3:after{
     display: block;
     height: 2px;
-    background-color: #fdcb6e;
+    background-color: #f28231;
     content: " "; /*need this*/
     width: 130px;
     margin: 0 auto;
@@ -88,7 +88,7 @@ h3:after{
 h2:after{
     display: block;
     height: 2px;
-    background-color: #fdcb6e;
+    background-color: #f28231;
     content: " "; /*need this*/
     width: 100px;
     margin: 0 auto;
@@ -113,15 +113,15 @@ h5{
 }
 
 .btn-full:link, .btn-full:visited {
-    background-color: #fdcb6e;
-    border: 1px solid #fdcb6e;
+    background-color: #f28231;
+    border: 1px solid #f28231;
     color: #000;
     margin-right: 15px;
 }
 
 .btn-ghost:link, .btn-ghost:visited{
-    border: 1px solid #fdcb6e;
-    color: #fdcb6e;
+    border: 1px solid #f28231;
+    color: #f28231;
 }
 
 .btn:hover, .btn:active{
@@ -129,7 +129,7 @@ h5{
 }
 
 .btn-full:hover, .btn-full:active {
-    border: 1px solid #fdcb6e;
+    border: 1px solid #f28231;
 }
 
 .btn-ghost:hover, .btn-ghost:active{
@@ -192,7 +192,7 @@ header{
 }
 
 .main-nav li a:hover, .main-nav li a:active{
-    border-bottom: 2px solid #fdcb6e;
+    border-bottom: 2px solid #f28231;
 }
 
 /*----------sticky nav--------------*/
@@ -408,7 +408,7 @@ header{
 
 .linkedin a:hover,
 .linkedin a:active{
-    color: #fdcb6e;
+    color: #f28231;
 }
 
 .email a:link,
@@ -420,7 +420,7 @@ header{
 
 .email a:hover,
 .email a:active{
-    color: #fdcb6e;
+    color: #f28231;
 }
 
 .github a:link,
@@ -432,7 +432,7 @@ header{
 
 .github a:hover,
 .github a:active{
-    color: #fdcb6e;
+    color: #f28231;
 }
 
 .resume a:link,
@@ -444,7 +444,7 @@ header{
 
 .resume a:hover,
 .resume a:active{
-    color: #fdcb6e;
+    color: #f28231;
 }
 
 /*----------------------------------------------------------*/
