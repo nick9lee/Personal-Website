@@ -142,8 +142,8 @@ h5{
 /*----------------------------------------------------------*/
 
 header{
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(images/NikitaBeingDumb.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(images/NikitaBeingDumb.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(images/Textile.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(images/Textile.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -251,12 +251,12 @@ header{
     background-color: #f4f4f4;
 }
 
-.amazon-logo{
-    width: 80%;
+.MechanicalCad-Pic{
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 37%;
+    margin-top: 15%;
     margin-bottom: auto;
 }
 
@@ -272,12 +272,30 @@ header{
     margin-bottom: -10px;
 }
 
-.arcurve-logo{
-    width: 90%;
+.ElectricalCad-Pic{
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40%;
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
+.SoftwareArchitecture1{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
+.SoftwareArchitecture2{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     margin-bottom: auto;
 }
 
