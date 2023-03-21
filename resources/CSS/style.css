@@ -144,10 +144,15 @@ h5{
 header{
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(images/forest.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(images/forest.jpg);
-    background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+@media(min-width: 768px) {
+    header{
+        background-size: cover;
+    }
 }
 
 .hero-text-box{
