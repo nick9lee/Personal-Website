@@ -261,8 +261,14 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 37%;
-    margin-bottom: auto;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+@media(min-width: 768px) {
+    .amazon-logo{
+        margin-top: 40%;
+    }
 }
 
 .amazon-intern-des{
@@ -282,8 +288,13 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40%;
     margin-bottom: auto;
+}
+
+@media(min-width: 768px) {
+    .arcurve-logo{
+        margin-top: 45%;
+    }
 }
 
 .arcurve-intern-des{
