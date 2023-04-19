@@ -131,6 +131,36 @@
             <div class="row">
                 <div class="col span-1-of-2 project-des-box">
                     <div class="project-description">
+                        <h3>r/Piazza</h3>
+                        <p>
+                            Our team successfully developed a distributed version of r/place for our distributed systems 
+                            class, creating a collaborative online canvas where users can design pixel art on a 200x200 tile grid. 
+                            The main focus of this project was to prioritize replication, fault tolerance, data consistency, and synchronization. 
+                            To achieve these objectives, we implemented two proxy servers, with one serving as a backup, as well as a 
+                            network of three main servers with attached databases. Clients were routed to a server based on 
+                            a random algorithm to optimize load balancing. <br><br>
+
+                            Each of these servers featured automatic restart processes to enhance overall system reliability. 
+                            As part of the startup process, a server would check for other live servers and copy their database 
+                            to ensure up-to-date data replication. We also employed Lamport's timestamps to ensure data consistency 
+                            and synchronization across all replicated databases. To create this project, we leveraged technologies 
+                            such as React, Node.js, MongoDB, AWS EC2, Socket.io, and Nginx. This robust architecture and combination 
+                            of tools resulted in a highly reliable, fault-tolerant, and consistent distributed version of r/place.
+                        </p>
+                    </div>
+                    
+                    <a class="btn btn-ghost" href="https://github.com/nick9lee/rPiazza">view code</a> 
+                </div>
+                
+                <div class="col span-1-of-2">
+                    <img src="resources/images/PiazzaArchitecture.png" alt="" class="piazza-architecture">
+                    <video controls autoplay class="piazza-vid" width="500" height="350" src="resources/images/PiazzaRecording.mp4"></video>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-2 project-des-box">
+                    <div class="project-description">
                         <img src="resources/images/RoswellTextileLogoBlack.png" alt="roswell" class="roswell-icon">
                         <h3>Inline Air Permeability Inspection System</h3>
                         <p>

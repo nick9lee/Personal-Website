@@ -380,6 +380,22 @@ header{
     width: 90%;
     margin-bottom: 0%;
 }
+
+.piazza-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+.piazza-architecture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 90%;
+    margin-bottom: 0%;
+}
 /*----------app icons-----------*/
 
 .app-icons{
