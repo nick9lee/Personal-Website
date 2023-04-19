@@ -364,10 +364,33 @@ header{
     margin-right: auto;
     margin-top: 15%;
 }
+
+.capstone-ui-vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+.capstone-compilation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 90%;
+    margin-bottom: 0%;
+}
 /*----------app icons-----------*/
 
 .app-icons{
     width:10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roswell-icon{
+    width:30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
