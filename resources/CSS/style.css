@@ -256,6 +256,21 @@ header{
     background-color: #f4f4f4;
 }
 
+.amazon-logo-2{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+@media(min-width: 768px) {
+    .amazon-logo-2{
+        margin-top: 30%;
+    }
+}
+
 .amazon-logo{
     width: 80%;
     display: block;
